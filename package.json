@@ -24,8 +24,8 @@
     "docker:enter": "docker exec -e COLUMNS=$COLUMNS -e LINES=$LINES -e TERM=$TERM -it ethibox bash"
   },
   "engines": {
-    "node": "8.11.4",
-    "npm": "5.6.0"
+    "node": "^16.18.1",
+    "npm": "^5.6.0"
   },
   "license": "GPL-3.0",
   "devDependencies": {
